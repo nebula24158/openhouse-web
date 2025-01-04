@@ -409,6 +409,14 @@ ol {
 
 .header__logo {
 	padding: 15px 0;
+	height: 100px;
+	width: auto;
+}
+
+.header__logo img {
+    max-width: 150px; /* Adjust this value for desired logo width */
+    height: auto;     /* Maintain aspect ratio */
+    display: block;   /* Ensure proper alignment */
 }
 
 .header__logo a {
